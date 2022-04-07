@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #d0dada;
+    color: #0f141e;
+    
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+a {
+    color: #757575;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(161, 182, 187);
+}
+
+.container {
+    /* background-color: blue; */
+
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.main-header {
+    text-align: center;
+
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.meme-pics-group1 {
+    /* background-color: red; */
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+.SB_funny_pic {
+    padding: 20px 20px;
+    max-width: 500px;
+    width: 500px;
+    max-height: 500px;
+    height: 500px;
+}
+
+.sleepy_kitty_pic {
+    padding: 20px 20px;
+    max-width: 500px;
+    width: 500px;
+    max-height: 500px;
+    height: 500px;
+}
+
+.cheese_face_pic {
+    padding: 20px 20px;
+    max-width: 500px;
+    width: 500px;
+    max-height: 500px;
+    height: 500px;
+}
+
+.joke-container {
+    background-color: red;
+    
+    padding: 10px;
+}
+
+.joke-header {
+    background-color: cyan;
+
+    text-align: center;
+    letter-spacing: 150px;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.joke-body {
+    display: flex;
+}
+
+.zadornov-gif {
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.joke-text {
+    background-color: #757575;
+
+    padding: 10px;
+    border-radius: 12px;
+
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.video-link-container {
+    background-color: blue;
+    border-radius: 12px;
+    margin: 18px auto;
+    padding: 10px;
+
+    text-align: center;
+    font-size: 50px;
+
+    width: 90%;
+    height: 100px;
+}
