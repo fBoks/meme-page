@@ -39,61 +39,108 @@ a:active {
 }
 
 .meme-pics-group1 {
-    /* background-color: red; */
-
+    background-color: green;
     display: flex;
-    justify-content: space-between;
 
-    width: 90%;
-    margin: 0 auto;
+    margin: auto;
+    
+    width: 1000px;
+    max-width: 90%;
+    min-width: 500px;
+    
+    text-align: center;
 }
 
-.SB_funny_pic {
-    padding: 20px 20px;
-    max-width: 500px;
-    width: 500px;
-    max-height: 500px;
-    height: 500px;
+.SB_funny_pic_container {
+    margin: auto;
+
+    width: 1000px;
+    max-width: 90%;
+    min-width: 500px;
+
+    text-align: center;
 }
 
-.sleepy_kitty_pic {
-    padding: 20px 20px;
-    max-width: 500px;
-    width: 500px;
-    max-height: 500px;
-    height: 500px;
+.SB_funny_pic_container img {
+    float: left;
+
+    max-width: 48%;
+    height: auto;
+
+    padding: 1%;
 }
 
-.cheese_face_pic {
-    padding: 20px 20px;
-    max-width: 500px;
-    width: 500px;
-    max-height: 500px;
-    height: 500px;
+.sleepy_kitty_pic_container {
+    margin: auto;
+    
+    width: 1000px;
+    max-width: 90%;
+    min-width: 500px;
+    
+    text-align: center;
+}
+
+.sleepy_kitty_pic_container img {
+    float: left;
+
+    max-width: 48%;
+    height: auto;
+
+    padding: 1%;
+}
+
+.cheese_face_pic_container {
+    margin: auto;
+    
+    width: 1000px;
+    max-width: 90%;
+    min-width: 500px;
+    
+    text-align: center;
+}
+
+.cheese_face_pic_container img {
+    float: left;
+    
+    max-width: 48%;
+    height: auto;
+    
+    padding: 1%;
 }
 
 .joke-container {
     background-color: red;
     
-    padding: 10px;
+    margin: auto;
+    
+    width: 1000px;
+    max-width: 90%;
+    min-width: 500px;
 }
 
 .joke-header {
     background-color: cyan;
 
     text-align: center;
-    letter-spacing: 150px;
-    font-size: 80px;
+    letter-spacing: 1em;
+    font-size: 400%;
     font-weight: 900;
 }
 
 .joke-body {
     display: flex;
+
+    max-width: 90%;
+    max-height: 90%;
 }
 
 .zadornov-gif {
     border-radius: 20px;
-    margin: 20px;
+
+    max-width: 48%;
+    height: 48%;
+
+    padding: 1%;
 }
 
 .joke-text {
@@ -102,19 +149,19 @@ a:active {
     padding: 10px;
     border-radius: 12px;
 
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 100;
 }
 
 .video-link-container {
     background-color: blue;
     border-radius: 12px;
-    margin: 18px auto;
+    margin: 20px auto;
     padding: 10px;
 
     text-align: center;
     font-size: 50px;
 
-    width: 90%;
-    height: 100px;
+    max-width: 90%;
+    height: 90%;
 }
